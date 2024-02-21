@@ -4,3 +4,4 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let sum = (2+4);
