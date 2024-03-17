@@ -5,7 +5,7 @@
  */
 const calculateTotal = (subtotal, tax) => {
   return subtotal * tax + subtotal;
-};
+}
 
 /**
  * You are paying your bill. You have a subtotal of $50.00 and tax is 2%.
@@ -15,3 +15,6 @@ const calculateTotal = (subtotal, tax) => {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const total = calculateTotal(50, 2/100);
+console.log(total);

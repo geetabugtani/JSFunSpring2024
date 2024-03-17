@@ -12,3 +12,9 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let name;
+const printGreeting = (name) => {
+  console.log(`Hello ${name}!`)
+}
+printGreeting('Tim');

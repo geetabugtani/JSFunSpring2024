@@ -16,3 +16,16 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+const lowerCaseString = (inputString) => {
+  if (typeof inputString !== 'string') {
+    return;
+  }
+  
+  return inputString.toLowerCase();
+}
+
+console.log(lowerCaseString('HELLO WORLD')); // Output: "hello world"
+console.log(lowerCaseString()); // Output: undefined
+console.log(lowerCaseString(null)); // Output: undefined
