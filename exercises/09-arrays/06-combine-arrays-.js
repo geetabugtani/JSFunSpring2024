@@ -8,3 +8,5 @@ let array2 = ["lion", "leopard", "saber tooth tiger"];
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let newArray = array2.concat(array1);
+console.log(newArray);
